@@ -1,9 +1,9 @@
-down chromedriver  + add to path 
+down chromedriver, geckodriver  + add to path 
 
 mkdir environments
 cd environments
-
-python -m venv selenium_env
-
+down requirements.txt
 selenium_env\Scripts\activate.bat
+
+
 
